@@ -1,0 +1,23 @@
+class program 
+{
+    program () 
+    {
+        while (frontIsClear)
+        {
+         if(nextToABeeper)
+         {
+          pickbeeper();
+         }
+         else
+         {
+           putbeeper();
+           move();
+         }
+         if(frontIsBlocked)
+         {
+          putbeeper();
+         }
+        }
+      turnoff();
+    }
+}

@@ -1,0 +1,16 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+        iterate (8)
+        {
+          move();
+          turnleft();
+          turnleft();
+          turnleft();
+          move();
+          pickbeeper();
+          turnleft();
+         }
+        turnoff();
+    }
+}

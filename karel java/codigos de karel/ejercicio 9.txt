@@ -1,0 +1,15 @@
+class program 
+{
+ void turnrigth(n)
+ {
+ iterate(n)
+  {
+   turnleft();
+  }
+ }
+  program ()
+  {
+        turnrigth(1);
+        turnoff();
+    }
+}

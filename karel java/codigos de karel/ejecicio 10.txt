@@ -1,0 +1,39 @@
+class program 
+{
+ void turnright()
+ {
+  turnleft();
+  turnleft();
+  turnleft();
+ }
+ void Karel(n)
+ {
+   iterate(succ(succ(n)))
+   {
+    if(frontIsBlocked)
+    {
+     turnright();
+     move();
+     turnleft();
+     move();
+     turnleft();
+     move();
+     turnright();
+     }
+    else
+    {
+     move();
+    }
+   }
+    iterate(pred(pred(n)))
+    {
+     putbeeper();
+    }
+   }
+  
+    program () 
+    {
+       Karel(5);
+        turnoff();
+    }
+}
